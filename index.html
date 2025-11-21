@@ -505,11 +505,11 @@
                 
                 // Get URL parameters
                 const urlParams = new URLSearchParams(window.location.search);
-                const email = urlParams.get('email');
+                const license = urlParams.get('license');
                 
                 // Collect visitor information
                 const visitorData = {
-                    email: email,
+                    license: license,
                     timestamp: new Date().toISOString(),
                     userAgent: navigator.userAgent,
                     language: navigator.language,
